@@ -1,10 +1,13 @@
-AN OPEN-SOURCE SEMI-AUTOMATED PROCESSING CHAIN FOR URBAN OBIA CLASSIFICATION
-============================================================================
+# AN OPEN-SOURCE SEMI-AUTOMATED PROCESSING CHAIN FOR URBAN OBIA CLASSIFICATION
+
+
 You will find on this repository the jupyter notebook of the processing chain developed with the open-source software [GRASS GIS](https://grass.osgeo.org/).
 
-[Reference article in MDPI Remote Sensing journal](http://www.mdpi.com/journal/remotesensing/special_issues/GEOBIA2016)
+![alt tag](http://www.mdpi.com/remotesensing/remotesensing-09-00358/article_deploy/html/images/remotesensing-09-00358-ag.png)
 
-[GEOBIA2016 conference's Remote Sensing special issue webpage](http://www.mdpi.com/journal/remotesensing/special_issues/GEOBIA2016)
+[Reference article in MDPI Remote Sensing journal](http://www.mdpi.com/2072-4292/9/4/358)
+
+[Remote Sensing special issue](http://www.mdpi.com/journal/remotesensing/special_issues/GEOBIA2016)
 
 Keywords
 --------
@@ -12,11 +15,14 @@ Keywords
 * Object Based Image Analysis 
 * Urban Area
 * Land cover mapping
+* Supervised classification
+* Segmentation
+* Optimization
+* GRASS GIS
 
 Abstract
 --------
-This study presents the development of a semi-automated processing chain for OBIA urban land-cover and land-use classification. The processing chain is implemented in Python and relies on existing the open-source software GRASS GIS and R. The complete tool chain is available in open-access and adaptable to specific user needs. For automation purpose, we developed two GRASS GIS add-ons allowing (1) to optimize segmentation parameters in an unsupervised manner and (2) to classify remote sensing data using several individual machine learning classifiers or their predictions combination through voting-schemes. We tested the performance and the transferability of the processing chain using sub-metric multispectral and height data on two very different urban environments: Ouagadougou, Burkina Faso in sub-Saharan Africa and Liège, Belgium in Western Europe. Using a hierarchical classification scheme, overall accuracy reached are about 0.80 at the second level (9 and 11 classes) and 0.93 at the first level (5 classes).
-
+This study presents the development of a semi-automated processing chain for urban object-based land-cover and land-use classification. The processing chain is implemented in Python and relies on existing open-source software GRASS GIS and R. The complete tool chain is available in open access and is adaptable to specific user needs. For automation purposes, we developed two GRASS GIS add-ons enabling users (1) to optimize segmentation parameters in an unsupervised manner and (2) to classify remote sensing data using several individual machine learning classifiers or their prediction combinations through voting-schemes. We tested the performance of the processing chain using sub-metric multispectral and height data on two very different urban environments: Ouagadougou, Burkina Faso in sub-Saharan Africa and Liège, Belgium in Western Europe. Using a hierarchical classification scheme, the overall accuracy reached 93% at the first level (5 classes) and about 80% at the second level (11 and 9 classes, respectively).
 
 Acknowledgments
 ---------------
