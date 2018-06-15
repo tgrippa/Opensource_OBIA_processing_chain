@@ -27,3 +27,7 @@ This study presents the development of a semi-automated processing chain for urb
 Acknowledgments
 ---------------
 This work was funded by the Belgian Federal Science Policy Office (BELSPO) (Research Program for Earth Observation STEREO III, contract SR/00/304 - as part of the [MAUPP project](http://maupp.ulb.ac.be) and by Moerman research program of ISSeP [SmartPop project](http://www.issep.be/smartpop).
+
+Cite this code
+---------------
+Please use the following DOI for citing this code [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290492.svg)](https://doi.org/10.5281/zenodo.1290492)
