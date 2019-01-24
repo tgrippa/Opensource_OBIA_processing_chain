@@ -31,3 +31,11 @@ This work was funded by the Belgian Federal Science Policy Office (BELSPO) (Rese
 Cite this code
 ---------------
 Please use the following DOI for citing this code [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290492.svg)](https://doi.org/10.5281/zenodo.1290492)
+
+Recent developments
+---------------
+The processing chain evolved throught more advanced segmentation optimization strategy (called SPUSPO [1](https://doi.org/10.3390/rs10091440) [2](https://goo.gl/yRBwPQ))) that allow for unsupervised optimization on mutliple partitions of the scene (local approach instead of global approach implemented here [3](https://doi.org/10.1117/12.2278422)). The most recent version of our processing chain is available here: [https://github.com/tgrippa/Semi_automated_OBIA_processing_with_local_USPO](https://github.com/tgrippa/Semi_automated_OBIA_processing_with_local_USPO) 
+
+[1] Georganos, Stefanos, Tais Grippa, Moritz Lennert, Sabine Vanhuysse, Brian Johnson, and Eléonore Wolff. “Scale Matters: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Large and Heterogeneous Satellite Images.” Remote Sensing 10, no. 9 (September 9, 2018): 1440. [https://doi.org/10.3390/rs10091440](https://doi.org/10.3390/rs10091440).
+[2] Georganos, Stefanos, Taïs Grippa, Moritz Lennert, Sabine Vanhuysse, and Eleonore Wolff. “SPUSPO: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Efficiently Segmenting Large Heterogeneous Areas.” In Proceedings of the 2017 Conference on Big Data from Space (BiDS’17), 2017. [https://goo.gl/yRBwPQ](https://goo.gl/yRBwPQ).
+[3] Grippa, Tais, Stefanos Georganos, Sabine Vanhuysse, Moritz Lennert, and Eléonore Wolff. “A Local Segmentation Parameter Optimization Approach for Mapping Heterogeneous Urban Environments Using VHR Imagery.” In Proceedings Volume 10431, Remote Sensing Technologies and Applications in Urban Environments II. IEEE, 2017. [https://doi.org/10.1117/12.2278422](https://doi.org/10.1117/12.2278422).
