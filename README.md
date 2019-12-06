@@ -1,6 +1,5 @@
 # AN OPEN-SOURCE SEMI-AUTOMATED PROCESSING CHAIN FOR URBAN OBIA CLASSIFICATION
 
-
 You will find on this repository the jupyter notebook of the processing chain developed with the open-source software [GRASS GIS](https://grass.osgeo.org/).
 
 ![alt tag](http://www.mdpi.com/remotesensing/remotesensing-09-00358/article_deploy/html/images/remotesensing-09-00358-ag.png)
@@ -8,6 +7,9 @@ You will find on this repository the jupyter notebook of the processing chain de
 [Reference article in MDPI Remote Sensing journal](http://www.mdpi.com/2072-4292/9/4/358)
 
 [Remote Sensing special issue](http://www.mdpi.com/journal/remotesensing/special_issues/GEOBIA2016)
+
+**More recent developments are available [here](https://github.com/tgrippa/Semi_automated_OBIA_processing_with_local_USPO)**:
+The processing chain presented in this repository was published in 2017 but evolved since throught more advanced segmentation optimization strategy (called SPUSPO [1][2]) that allow for unsupervised optimization on mutliple partitions of the scene (local approach instead of global approach implemented here [3]). 
 
 Keywords
 --------
